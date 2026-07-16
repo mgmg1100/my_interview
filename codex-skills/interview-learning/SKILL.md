@@ -46,6 +46,8 @@ Deliver exactly one new interview item per session, with no repeats. Before teac
 - Edge cases
 - Growth signal: one question testing the core invariant
 
+When starting algorithm practice, use an actual LeetCode-style prompt: include the problem statement, examples with inputs and outputs, constraints, and the expected function signature. Ask the user to solve it as code, not only compute one sample output.
+
 ### System Design - System Design Interview Book
 
 - **Design prompt** as a heading
@@ -71,6 +73,7 @@ Deliver exactly one new interview item per session, with no repeats. Before teac
 
 - Always practice one by one: deliver one item total per session.
 - For algorithm items, prioritize the invariant, edge cases, and clean implementation.
+- Algorithm practice tests must look like real LeetCode prompts and require the user to write the solution.
 - For system design items, never copy book text. Use interview-ready reasoning in your own words.
 - For behavioral items, emphasize ownership, scope, judgment, ambiguity, influence without authority, tradeoff communication, organizational impact, and durable follow-through.
 - If a section is exhausted, say so and prompt to add more items.
