@@ -52,6 +52,7 @@ Present in this order:
 7. **Edge cases** — Empty input, single element, duplicates, overflow, off-by-one — whatever applies.
 8. **Think out loud — during coding** — Bullet phrases to say while coding: restating the invariant, announcing the loop structure, naming variables, checking edge cases before running.
 9. **Think out loud — closing** — How to wrap up: summarize approach, restate complexity, mention one tradeoff or follow-up you'd expect.
+10. **Full brute-force think-out-loud example** — End the teaching section with a complete spoken example of how a candidate could propose the brute-force solution in an interview. Include problem restatement, brute-force idea, why it is correct, complexity, why it may be insufficient, and the transition sentence into optimization.
 
 Pause for Q&A. Do not create a practice file or start the timed exercise until the user says they are ready to practice.
 
@@ -78,7 +79,7 @@ Pause for Q&A. Do not create a practice file or start the timed exercise until t
 
 #### Phase 3 — Notes
 
-After practice, create or update `algorithm/leetcode-75/<kebab-case-problem-name>.md` with: pattern, invariant, brute force vs optimal complexity, edge cases, think-out-loud phrases that worked, follow-up question answers, and any mistakes from the session.
+After practice, create or update `algorithm/leetcode-75/<kebab-case-problem-name>.md` with: pattern, invariant, brute force vs optimal complexity, edge cases, full brute-force think-out-loud example, think-out-loud phrases that worked, follow-up question answers, and any mistakes from the session.
 
 Keep the `.py` practice file in the repo when created so future sessions can re-run tests.
 
@@ -144,7 +145,7 @@ After practice, create or update `behavioral-interview/<kebab-case-question-or-t
 ## Rules
 
 - Always practice one by one: deliver one item total per session.
-- For algorithm items, follow the full interview walkthrough: clarifying questions, brute force, optimal solution, complexity, think-out-loud scripts, then practice with a `.py` file and test cases when the user is ready.
+- For algorithm items, follow the full interview walkthrough: clarifying questions, brute force, optimal solution, complexity, think-out-loud scripts, a full brute-force spoken example, then practice with a `.py` file and test cases when the user is ready.
 - Algorithm practice must use a LeetCode-style prompt and require the user to implement code, not only describe the answer.
 - Always run the practice file tests and give structured feedback (correctness, complexity, communication, code quality) plus 1–2 follow-up questions.
 - For system design items, never copy book text. Use interview-ready reasoning in your own words.
