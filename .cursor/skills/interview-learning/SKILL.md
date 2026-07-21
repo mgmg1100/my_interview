@@ -58,7 +58,7 @@ Pause for Q&A. Do not create a practice file or start the timed exercise until t
 #### Phase 2 — Practice (when user is ready)
 
 1. **Create a practice file** at `algorithm/leetcode-75/<kebab-case-problem-name>.py`:
-   - Module docstring with problem name and one-line pattern
+   - Module docstring with problem name, one-line pattern, full LeetCode-style problem statement, examples, constraints, and expected function signature
    - `Solution` class or top-level function matching the LeetCode signature
    - A `if __name__ == "__main__":` block with test cases covering: given examples, edge cases, and at least one non-trivial case
    - Use plain `assert` statements or `unittest`; keep tests runnable with `python algorithm/leetcode-75/<file>.py`
