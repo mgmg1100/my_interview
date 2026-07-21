@@ -95,13 +95,51 @@ Keep the `.py` practice file in the repo when created so future sessions can re-
 
 ### Behavioral Interview - Common Questions
 
-- **Question** as a heading
-- What the interviewer is testing
-- Strong answer shape
-- Muscle-memory wording template
-- Example outline using STAR or another clear structure
-- Senior-level signals
-- Growth signal: one prompt to make the story sharper
+Run every behavioral item like a real mock interview. Teach the answer structure first, then evaluate the user's answer as an interviewer would.
+
+#### Phase 1 — Teach (before practice)
+
+Present in this order:
+
+1. **Question** — State the behavioral prompt exactly.
+2. **What the interviewer is testing** — Name the signal: ownership, judgment, conflict handling, ambiguity, leadership, execution, communication, or learning.
+3. **STAR schema template** — Give a fill-in template:
+   - **Situation:** "When I was working on [project/context], we faced [specific challenge]."
+   - **Task:** "I was responsible for [your ownership], and success meant [measurable or observable outcome]."
+   - **Action:** "I [specific actions], because [judgment/tradeoff]. I aligned [stakeholders] by [communication/influence]."
+   - **Result:** "As a result, [metric/customer/team/system impact]. I learned [durable behavior change]."
+4. **Templated example answer** — Provide a concise sample answer using STAR. Keep it realistic, specific, and senior-leaning without inventing personal details about the user. Label each STAR part.
+5. **Strong wording bank** — Give reusable sentence shapes for ownership, tradeoffs, disagreement, ambiguity, and impact.
+6. **Signal checklist** — List what a strong answer must prove: scope, personal contribution, judgment, collaboration, measurable result, reflection, and seniority signal.
+7. **Common traps** — Warn against vague "we" language, too much background, blaming others, missing result, and shallow reflection.
+
+Pause for Q&A. Do not start the mock answer until the user says they are ready to practice.
+
+#### Phase 2 — Mock Interview Practice (when user is ready)
+
+1. Ask the behavioral question as an interviewer and request a spoken-style answer.
+2. Let the user answer without interruption unless they ask for help.
+3. Ask 1–2 realistic follow-up questions before scoring, such as:
+   - "What was the hardest tradeoff you made?"
+   - "How did you know your approach worked?"
+   - "What would you do differently now?"
+   - "How did you influence people who did not report to you?"
+4. Score the answer like an actual mock interview:
+   - **Overall score:** `1–5`
+   - **Signal score:** `1–5` for seniority, ownership, judgment, scope, ambiguity handling, influence, and impact
+   - **Structure score:** `1–5` for STAR completeness, focus, pacing, and clarity
+   - **Wording score:** `1–5` for crispness, specificity, active verbs, and interviewer-ready phrasing
+5. Give feedback in this format:
+   - **Hire signal:** what level/signal the answer currently projects
+   - **What worked:** 2–3 concrete strengths
+   - **What weakened the answer:** missing evidence, vague wording, unclear stakes, weak metric, overuse of "we", or shallow reflection
+   - **Wording upgrades:** rewrite 2–4 specific phrases into stronger interview wording
+   - **Stronger answer shape:** a tighter STAR outline using the user's actual content
+   - **Next drill:** one targeted practice prompt to improve the answer
+
+#### Phase 3 — Notes
+
+After practice, create or update `behavioral-interview/<kebab-case-question-or-tip>.md` with: the prompt, tested signal, STAR schema template, reusable wording, strong answer outline, scoring notes, follow-up questions, and the user's durable mistakes or upgrades.
 
 ## Rules
 
@@ -110,7 +148,8 @@ Keep the `.py` practice file in the repo when created so future sessions can re-
 - Algorithm practice must use a LeetCode-style prompt and require the user to implement code, not only describe the answer.
 - Always run the practice file tests and give structured feedback (correctness, complexity, communication, code quality) plus 1–2 follow-up questions.
 - For system design items, never copy book text. Use interview-ready reasoning in your own words.
-- For behavioral items, emphasize ownership, scope, judgment, ambiguity, influence without authority, tradeoff communication, organizational impact, and durable follow-through.
+- For behavioral items, use the full mock interview workflow: STAR schema template, templated example answer, realistic follow-ups, signal/structure/wording scores, wording upgrades, and a tighter rewritten answer shape.
+- Behavioral feedback must evaluate actual interview signal, not just correctness. Emphasize ownership, scope, judgment, ambiguity, influence without authority, tradeoff communication, organizational impact, and durable follow-through.
 - If a section is exhausted, say so and prompt to add more items.
 - Keep explanations concise. This is interview training, not a textbook.
 - Use today's date when checking off items.
