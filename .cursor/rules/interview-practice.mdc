@@ -1,0 +1,30 @@
+---
+description: Interview practice repository conventions and note-writing standards
+alwaysApply: true
+---
+
+# Interview Practice Project
+
+Personal interview preparation across three pillars: algorithm (LeetCode 75), system design, and behavioral interviews.
+
+## Key Files
+
+- `interview-tracker.md` — progress tracker with checkboxes, recap log, and exam log
+- `FOCUS.md` — growth goals and weekly practice cadence
+- `CONTRIBUTING.md` — how to write and organize notes
+
+## Note Standards
+
+When creating or editing notes in this repository, follow `CONTRIBUTING.md`:
+
+- One interview concept per file
+- Concise, recall-oriented writing with examples and diagrams when useful
+- Lowercase kebab-case filenames
+- Capture mistakes and corrections from practice sessions
+
+## Skills
+
+Use project skills when the user asks for practice:
+
+- **interview-learning** — one new item per session with a practice test
+- **interview-recap** — retention recaps, daily reviews, and monthly exams

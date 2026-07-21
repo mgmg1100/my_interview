@@ -9,6 +9,7 @@ Regular rotation sections:
 
 Optional add-on sections:
 - Mock Interview Drills
+- Engineering Behavioral Interview Tips
 
 Daily session notes:
 
@@ -218,6 +219,21 @@ Daily session notes:
 - [ ] A Time You Worked With Incomplete Data
 - [ ] A Time You Drove Alignment
 - [ ] A Time You Helped a Team Make a Better Decision
+
+---
+
+## Engineering Behavioral Interview Tips
+
+- [x] STAR Method for Behavioral Answers — 2026-06-27
+- [x] Framing Technical Impact — 2026-06-28
+- [ ] Explaining Conflict Without Blame
+- [ ] Demonstrating Ownership
+- [ ] Handling Ambiguity Stories
+- [ ] Discussing Failure and Recovery
+- [ ] Showing Cross-Functional Influence
+- [ ] Describing Mentorship and Team Growth
+- [ ] Communicating Tradeoffs to Non-Technical Stakeholders
+- [ ] Answering "Tell Me About Yourself" for Engineering Roles
 
 ---
 

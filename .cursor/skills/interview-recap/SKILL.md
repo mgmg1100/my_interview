@@ -9,11 +9,11 @@ Synthesize recent interview practice one item at a time. Refresh, connect, and t
 
 ## Tracker
 
-`~/my_interview/interview-tracker.md` - read the `## Recap Log` section to find the latest full recap entry and any one-by-one partial recap entries after it.
+`interview-tracker.md` at the repository root — read the `## Recap Log` section to find the latest full recap entry and any one-by-one partial recap entries after it.
 
 ## Steps
 
-1. Read `~/my_interview/interview-tracker.md`.
+1. Read `interview-tracker.md`.
 2. Find the most recent full recap entry in `## Recap Log` and use it as the baseline. A full recap entry covers a batch of 6 items; a one-item entry is a partial recap marker, not a new baseline.
 3. Collect all regular-pillar `- [x]` items checked after that full recap baseline across all three regular pillars, or all checked regular-pillar items if no full recap entry exists yet.
 4. A full recap is due only when there are at least 12 completed regular items after the latest full recap entry, or when a delayed 6-item recap batch has already started and remains unfinished.
@@ -21,7 +21,7 @@ Synthesize recent interview practice one item at a time. Refresh, connect, and t
 6. Subtract items already listed in partial recap entries after the baseline for that delayed batch.
 7. If the user asked for a new item and the delayed recap batch has uncovered items, ask for consent before continuing recap first.
 8. Decide the single recap item for this turn before presenting anything. Use chronological order by completion date where possible; otherwise use tracker order.
-9. Read the matching note in `~/my_interview` for that one item when available.
+9. Read the matching note in this repository for that one item when available.
 10. Present one recap item and one retention question, then wait for the user's answer before continuing to another recap item.
 11. After the user answers or asks follow-up questions, give concise feedback and identify any durable clarification, example, tradeoff, edge case, or answer wording that belongs in the item note.
 12. Before marking the recap item done, update the same note if the discussion added useful knowledge.
@@ -58,7 +58,7 @@ Daily recap is a lightweight retention test, not a full recap batch.
 
 Monthly exam is a question-only assessment, not a recap.
 
-1. Read `~/my_interview/interview-tracker.md` and find the latest monthly exam entry in `## Exam Log`.
+1. Read `interview-tracker.md` and find the latest monthly exam entry in `## Exam Log`.
 2. Collect completed items after that exam entry across regular sections and optional add-ons. If no exam entry exists, collect all completed items.
 3. A monthly exam is due when there are at least 30 completed items after the latest exam entry. The exam batch is the oldest 30 unexamined completed items.
 4. Tell the user: "Today we have a monthly interview exam." Do not summarize or remind them of the items before asking questions.
@@ -79,4 +79,4 @@ Monthly exam is a question-only assessment, not a recap.
 - Connections section is mandatory.
 - Retention check is mandatory.
 - Never append recap entries or otherwise mutate `interview-tracker.md` until the user explicitly confirms they finished the recap.
-- Prefer saved notes in `~/my_interview` as recap source material when they exist.
+- Prefer saved notes in this repository as recap source material when they exist.

@@ -18,7 +18,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how notes should be written.
 
 ## Skills
 
-Version-controlled Codex skills live in [codex-skills](codex-skills/):
+Interview practice skills live in [.cursor/skills](.cursor/skills/). Cursor discovers them automatically when this repository is open.
 
-- `interview-learning`
-- `interview-recap`
+- `interview-learning` — one new item per session
+- `interview-recap` — delayed recaps, daily reviews, and monthly exams
+
+For Codex, see [codex-skills/README.md](codex-skills/README.md) to symlink into `~/.codex/skills/`.
